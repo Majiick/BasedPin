@@ -1,0 +1,56 @@
+<head>
+<title>BasedPin - Paste Tool</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='1.css') }}">
+</head>
+
+<body>
+    <div id="page">
+        <div id="header" class="site-header">
+            <div class="wrap">
+ 
+                    <img src="{{ url_for('static',filename='basedpin.png') }}" alt="Logo"><br>
+                </div>
+ 
+            </div>
+        </div>
+ 
+        <div id="main">
+            <div class="wrap">
+ 
+                <div id="primary">
+						<div id="info" role="main" align="center">
+							<h1>Quick & Easy Paste Tool!</h1>
+							<hr>
+							<p>Paste your text below, provide a simple alias and submit!<br>
+							Share anywhere with the easy to remember share link provided!
+							</p>
+							<br>
+						</div>							
+						<div id="content" role="main" align="center">
+							<form action="" method="post">
+							  Alias:<br>
+							  <input type="text" name="alias"><br><br>
+							  
+							  Paste:<br>
+							  <textarea rows="12" cols="50" id="paste" name="paste"></textarea><br><br>
+							  
+							  <input type="checkbox" name="unlisted" value="1"> Unlisted?<br><br>
+							  <input type="submit" value="Submit">
+							</form>
+						</div>
+                    </div>
+                </div>
+ 
+            </div>
+        </div>
+ 
+        <div id="footer" class="site-footer" align="center">
+            <div class="wrap">
+ 
+                <p class="site-credits">BasedPin © yuor momma</p>
+ 
+            </div>
+        </div>
+ 
+    </div>
+</body>

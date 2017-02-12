@@ -1,0 +1,65 @@
+/* =Reset
+-------------------------------------------------------------- */
+ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+ 
+html,
+body,
+div{
+    margin: 0;
+    padding: 0;
+	float:center;
+	font-family:arial;
+	text-align:center;
+}
+
+#content {
+	
+	padding:5px;
+    background: #cccccc;
+	border-radius: 15px;
+    border: 2px solid grey;
+}
+
+#header{
+    background: #cccccc;
+}
+ 
+#main{
+    background-color: white;    
+}
+
+#footer {
+	background: #cccccc;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0.5px;
+	text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+/* =Structures
+-------------------------------------------------------------- */
+ 
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+ 
+#primary{
+    max-width: 650px;
+    margin: 0 auto;
+}
