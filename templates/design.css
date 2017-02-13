@@ -1,0 +1,84 @@
+html, body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container 
+{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+#menu a:hover 
+{
+    color: rgb(255,215,0);
+}
+
+
+/* Navigator Background */
+.header 
+{
+    background-color: #4169E1;
+}
+
+/* Navigator Position */
+.nav 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigator Words */
+.nav li 
+{
+    display: inline;
+    font-family: "Times New Roman",'Raleway', sans-serif;
+    font-weight: 1000;
+    font-size: 12px;
+    margin-right: 50px;
+    text-transform: uppercase;
+
+}
+
+/* Removing the link look */
+.nav li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* Lining */
+.clearfix 
+{
+    clear: both;
+}
+
+/* Footer background */
+/* Making the footer */
+.footer 
+{
+    background-color: #4169E1;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+/* Description in footer */
+.footer p 
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    text-align: left;
+}
+
+/* Included again for footer */
+#container 
+{
+    width: 840px;
+    margin: 25px auto;
+}
+

@@ -1,20 +1,25 @@
 <head>
-<title>BasedPin - Paste Tool</title>
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='1.css') }}">
+    <title>BasedPin - Paste Tool</title>
+        <link type="text/css" rel="stylesheet" href="design.css"/>
 </head>
 
 <body>
-    <div id="page">
-        <div id="header" class="site-header">
-            <div class="wrap">
- 
-                    <img src="{{ url_for('static',filename='basedpin.png') }}" alt="Logo"><br>
-                </div>
- 
+
+    <div class="header"
+        <div class="container">
+            <div id="menu">
+                <ul class="nav">
+                    <li><a href="change.html">Paste Now</a></li>
+                    <li><a href="change.html">About</a></li>
+                    <li><a href="change.html">Contact</a></li>
+                    <li><a href="change.html">Support</a></li>
+
+                </ul>
             </div>
         </div>
+    </div>
  
-        <div id="main">
+    <div id="main">
             <div class="wrap">
  
                 <div id="primary">
@@ -28,13 +33,13 @@
 						</div>							
 						<div id="content" role="main" align="center">
 							<form action="" method="post">
-							  Alias:<br>
+							  Alias (Name) :<br>
 							  <input type="text" name="alias"><br><br>
 							  
 							  Paste:<br>
 							  <textarea rows="12" cols="50" id="paste" name="paste"></textarea><br><br>
 							  
-							  <input type="checkbox" name="unlisted" value="1"> Unlisted?<br><br>
+							  <input type="checkbox" name="unlisted" value="1"> Unlisted (Make this private)?<br><br>
 							  <input type="submit" value="Submit">
 							</form>
 						</div>
@@ -44,11 +49,13 @@
             </div>
         </div>
  
-        <div id="footer" class="site-footer" align="center">
-            <div class="wrap">
- 
-                <p class="site-credits">BasedPin © yuor momma</p>
- 
+        <!--Start of footer-->
+        <div class="clearfix"></div>
+        </div>
+
+        <div  class="footer">
+            <div class="container">
+                <p>Copyright © 2017. All rights reserved.</p>
             </div>
         </div>
  
